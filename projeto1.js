@@ -1,5 +1,5 @@
 const prompt = require('prompt-sync')()
-console.log('JIMI HENDREX EXPERIANCE');
+console.log('JIMI HENDRIX EXPERIENCE');
 console.log('PRESSIONE ENTER PARA CONTINUAR');
 prompt();
 
