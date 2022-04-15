@@ -25,15 +25,15 @@ const perg5 = prompt('05 - Perguntou para JANIS JOPLIN se ela a viu?');
 lista.push(perg5);
 
 
-console.log(`As respostas são:\npergunta 01 - ${perg1}\npergunta 02 - ${perg2}\npergunta 03 - ${perg3}\npergunta 04 - ${perg4}\npergunta 05 - ${perg5}`)
+console.log(`As respostas são:\npergunta 01 - ${perg1}\npergunta 02 - ${perg2}\npergunta 03 - ${perg3}\npergunta 04 - ${perg4}\npergunta 05 - ${perg5}`);
 
 let resposta = 0 // variavel para receber o loop
 for(let i=0;i<lista.length;i++){
     if(lista[i] == "s") {
-        resposta++
- }
-} // se a posição na lista tiver o sim add em resposta e corre para outra posição.
+        resposta++  // se a posição na lista tiver o sim add em resposta e corre para outra posição.
 
+ }
+} 
 
 if(resposta == 0){
     console.log('Você falhou miseravelmente.');
