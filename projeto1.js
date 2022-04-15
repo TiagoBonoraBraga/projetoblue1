@@ -15,13 +15,13 @@ lista =[];
 
 const perg1 = prompt('01 - Olhou dentro do case da Guitarra? ');
 lista.push(perg1);
-const perg2 = prompt('02 - Ela é Vermelha?');
+const perg2 = prompt('02 - Ela é Vermelha? ');
 lista.push(perg2);
-const perg3 = prompt('03 - Perguntou para o LEMMY KILMISTER seu roadie?');
+const perg3 = prompt('03 - Perguntou para o LEMMY KILMISTER seu roadie? ');
 lista.push(perg3);
 const perg4 = prompt('04 - Olhou dentro da garrafa de whisky? ');
 lista.push(perg4);
-const perg5 = prompt('05 - Perguntou para JANIS JOPLIN se ela a viu?');
+const perg5 = prompt('05 - Perguntou para JANIS JOPLIN se ela a viu? ');
 lista.push(perg5);
 
 
