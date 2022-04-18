@@ -2,7 +2,7 @@ const prompt = require('prompt-sync')()
 console.log('JIMI HENDRIX EXPERIENCE');
 console.log('PRESSIONE ENTER PARA CONTINUAR');
 prompt();
-console.log();
+
 
 
 console.log(`O Mago das guitarras JIMI HENDRIX voltou ao plano TERRENO para resgatar sua PALHETA DO DESTINO.
