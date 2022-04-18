@@ -12,17 +12,41 @@ console.log(`O Mago das guitarras JIMI HENDRIX voltou ao plano TERRENO para resg
                                 
 lista =[];
 
-
-const perg1 = prompt('01 - Olhou dentro do case da Guitarra? ');
+let perg1 = prompt('01 - Olhou dentro do case da Guitarra? ');
+while (perg1 !== "s" && perg1 !== "n") {
+    console.log("ERRO -  Digite s para sim e n para não. ");
+    perg1 = prompt('01 - Olhou dentro do case da Guitarra? ');
+}
 lista.push(perg1);
-const perg2 = prompt('02 - Ela é Vermelha?');
+
+let perg2 = prompt('02 - Ela é vermelha? ');
+while (perg2 !== "s" && perg2 !== "n") {
+    console.log("ERRO -  Digite s para sim e n para não. ");
+    perg2 = prompt('02 - Ela é vermelha? ');
+}
 lista.push(perg2);
-const perg3 = prompt('03 - Perguntou para o LEMMY KILMISTER seu roadie?');
+   
+let perg3 = prompt('03 - Perguntou para o LEMMY KILMISTER seu roadie? ');
+while (perg3 !== "s" && perg3 !== "n") {
+    console.log("ERRO -  Digite s para sim e n para não. ");
+    perg3 = prompt('03 - Perguntou para o LEMMY KILMISTER seu roadie? ');
+}
 lista.push(perg3);
-const perg4 = prompt('04 - Olhou dentro da garrafa de whisky? ');
+
+let perg4 = prompt('04 - Olhou dentro da garrafa de whisky? ');
+while(perg4 !== "s" && perg4 !== "n") {
+    console.log('ERRO -  Digite s para sim e n para não. ');
+    perg4 = prompt('04 - Olhou dentro da garrafa de whisky? ');
+}
 lista.push(perg4);
-const perg5 = prompt('05 - Perguntou para JANIS JOPLIN se ela a viu?');
+
+let perg5 = prompt('05 - Perguntou para JANIS JOPLIN se ela a viu? ');
+while(perg5 !== "s" && perg5 !== "n") {
+    console.log('ERRO -  Digite s para sim e n para não. ');  
+    perg5 = prompt('05 - Perguntou para JANIS JOPLIN se ela a viu? ');
+} 
 lista.push(perg5);
+
 
 
 console.log(`As respostas são:\npergunta 01 - ${perg1}\npergunta 02 - ${perg2}\npergunta 03 - ${perg3}\npergunta 04 - ${perg4}\npergunta 05 - ${perg5}`)
@@ -33,16 +57,15 @@ for(let i=0;i<lista.length;i++){
         resposta++
  }
 } // se a posição na lista tiver o sim add em resposta e corre para outra posição.
-
-
+console.log();
 if(resposta == 0){
-    console.log('Você falhou miseravelmente.');
+    console.log('Você não conseguiu ajudar o MESTRE a encontrar sua PALHETA DO DESTINO...');
 }else if(resposta == 1 || resposta == 2){
-    console.log('Você falhou, mais ainda consegue fugir da situação.');
+    console.log('Você falhou, mais conseguiu algumas pistas...');
 }else if(resposta == 3){
-    console.log('Você chegou perto de conseguir alcançar seu objetivo,mas acabou falhando por pouco.');
+    console.log('Você chegou perto de conseguir achar a PALHETA DO DESTINO, mas acabou falhando por pouco...');
 }else if(resposta == 4){
-    console.log('Depois de muito esforço você conquistou seu objetivo, embora não de maneira perfeita.');
+    console.log('Depois de muito esforço você achou a PALHETA DO DESTINO, embora não de maneira perfeita...');
 }else if(resposta == 5){
-    console.log('Você triunfou de maneira inquestionavel e seus feitos serão lembrados por muitas gerações.');
+    console.log('HELLYEAHHH... Você conseguiu pistas para achar a PALHETA DO DESTINO, como premiação: Ganhou um FREEPASS para assistir ao show do MESTRE quando desencarnar da matéria...');
 }
