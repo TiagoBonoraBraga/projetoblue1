@@ -66,7 +66,7 @@ if(resposta == 0){
 }else if(resposta == 3){
     console.log('Você chegou perto de conseguir achar a PALHETA DO DESTINO, mas acabou falhando por pouco...');
 }else if(resposta == 4){
-    console.log('Depois de muito esforço você achou a PALHETA DO DESTINO, embora não de maneira perfeita...');
+    console.log('Depois de muito esforço você conseguiu pistas para achar a PALHETA DO DESTINO, embora não de maneira perfeita...');
 }else if(resposta == 5){
     console.log('HELLYEAHHH... Você conseguiu pistas para achar a PALHETA DO DESTINO, como premiação: Ganhou um FREEPASS para assistir ao show do MESTRE quando desencarnar da matéria...');
 }
