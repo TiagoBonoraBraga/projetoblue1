@@ -62,7 +62,7 @@ console.log();
 if(resposta == 0){
     console.log('Você não conseguiu ajudar o MESTRE a encontrar sua PALHETA DO DESTINO...');
 }else if(resposta == 1 || resposta == 2){
-    console.log('Você falhou, mais conseguiu algumas pistas...');
+    console.log('Você falhou, mais conseguiu uma pista ...');
 }else if(resposta == 3){
     console.log('Você chegou perto de conseguir achar a PALHETA DO DESTINO, mas acabou falhando por pouco...');
 }else if(resposta == 4){
